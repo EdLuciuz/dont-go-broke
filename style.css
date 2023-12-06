@@ -1,6 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Raleway:wght@200;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Raleway:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Quicksand:wght@300;500;600&display=swap');
 
 body {
     background: linear-gradient(90deg, hsla(204, 46%, 16%, 1) 0%, hsla(175, 26%, 39%, 1) 100%);
     font-family: Raleway;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-width: 550px;
+    display: flex;
+    padding: 1.5em 2em 2em 2em;
+    background-color: #162C3B;
+    border: solid 5px#A4B6B6;
+    border-radius: 25px;
+    flex: 0 1 auto;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.title-cash {
+    font-size: 40px;
+    color: #BAC8C1;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title-balance {
+    font-size: 25px;
+    color: #BAC8C1;
+    font-weight: 300;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.rupiah {
+    font-size: 30px;
+    color: #BAC8C1;
+    font-weight: 700;
+}
+
+.amount {
+    font-size: 70px;
+    color: #BAC8C1;
+    font-weight: 700;
+}
+
+.button-row {
+    display: flex;
+    gap: 1.3em;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #3C6869;
+    border: none;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.minus-img, .history-img {
+    align-self: center;
+    width: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cashed-title {
+    font-weight: 700;
+    color: #A4B6B6;
+    font-size: 30px;
+}
+
+.ed {
+    color: #599E9F;
+}
+
+.qr-img {
+    align-self: flex-end;
+    width: 80px;
+    border-radius: 10px;
 }
