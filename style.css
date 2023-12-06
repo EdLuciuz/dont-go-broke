@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Raleway:wght@200;500;700&display=swap');
+
+body {
+    background: linear-gradient(90deg, hsla(204, 46%, 16%, 1) 0%, hsla(175, 26%, 39%, 1) 100%);
+    font-family: Raleway;
+}
